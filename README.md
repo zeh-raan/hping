@@ -1,4 +1,4 @@
-### HPING
+# HPING
 
 To safely test a dos attack, i used my default loopback interface IP and a kali tool
 
@@ -25,20 +25,20 @@ Should be able to see content of your default lo
 * Limiting packets send to 3
 * Avoid flooding the IP
 
-## How to run tool
+## Steps to run
 
-# Make script executable
+### Make script executable
 
 ```bash
 chmod +x hping.sh
 ```
 
-# Monitor lo
+### Monitor lo
 
 ```bash
 sudo tcpdump -i lo -nn
 ```
-# Run script
+### Run script
 
 ```bash
 ./hping.sh
